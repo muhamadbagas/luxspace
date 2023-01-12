@@ -5,14 +5,13 @@ import Hero from "parts/Hero";
 import BrowseRoom from "parts/HomePage/BrowseRoom";
 import JustArrived from "parts/HomePage/JustArrived";
 import Clients from "parts/Clients";
-import Sitemap from "parts/HomePage/Sitemap";
-
+import Sitemap from "parts/Sitemap";
 import Footer from "parts/Footer";
 
-export default function HomePage(props) {
+export default function HomePage() {
   return (
     <>
-      <Header></Header>
+      <Header theme="white" position="absolute"></Header>
       <Hero></Hero>
       <BrowseRoom></BrowseRoom>
       <JustArrived></JustArrived>
