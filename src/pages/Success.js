@@ -29,8 +29,7 @@ export default function Success() {
               />
               <h2 class="text-3xl font-semibold mb-6">Ah yes it’s success!</h2>
               <p class="text-lg mb-12">
-                Furniture yang anda beli akan kami kirimkan saat ini juga so now
-                please sit tight and be ready for it
+                Produk yang anda beli akan segera kami kirimkan.
               </p>
               <Link
                 to="/"
