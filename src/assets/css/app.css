@@ -59,6 +59,9 @@
     transform: translateX(-75px) translateY(-50%);
     background-size: 37.5%;
   }
+  .overlay .video {
+    @apply invisible;
+  }
 }
 
 /* breadcrumb */

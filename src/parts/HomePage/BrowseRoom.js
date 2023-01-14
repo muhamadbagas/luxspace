@@ -56,15 +56,11 @@ function Loading({ ratio = {} }) {
 }
 
 export default function BrowseRoom() {
-  const { data, status, error, run, isLoading } = useAsync({
-    data: { username: "" },
-  });
+  const { data, run, isLoading } = useAsync();
 
   useEffect(() => {
     run(fetch({ url: "/api/categories/?page=1&limit=4" }));
   }, [run]);
-
-  console.log(data, status, error);
 
   const ratioClassNames = {
     wrapper: {
