@@ -110,7 +110,7 @@ export default function Details() {
 
   useEffect(() => {
     run(fetch({ url: `/api/products/${idp}` }));
-  }, [run]);
+  }, [run, idp]);
 
   return (
     <>

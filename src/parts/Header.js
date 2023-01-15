@@ -6,7 +6,7 @@ import { useGlobalContext } from "helpers/hooks/useGlobalContext";
 import { ReactComponent as IconCart } from "assets/images/content/icon-cart.svg";
 
 export default function Header({ theme, position }) {
-  const [toggleMainMenu, setToggleMainMenu] = useState(false);
+  // const [toggleMainMenu, setToggleMainMenu] = useState(false);
   const [isCartChanged, setCartChanged] = useState(false);
   const { state } = useGlobalContext();
 
@@ -127,7 +127,7 @@ export default function Header({ theme, position }) {
                   ].join(" ")}
                   to="/cart"
                 >
-                  <IconCart className="text-pink-400"></IconCart>
+                  <IconCart></IconCart>
                 </Link>
               </li>
             </ul>
