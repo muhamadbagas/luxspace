@@ -42,7 +42,7 @@ export default function ShippingDetails() {
         }),
       });
       if (res) {
-        navigate("/succes");
+        navigate("/success");
         dispatch({
           type: "RESET_CART",
         });
