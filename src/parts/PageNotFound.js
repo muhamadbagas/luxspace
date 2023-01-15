@@ -10,7 +10,7 @@ export default function PageNotFound({
       <div class="container mx-auto min-h-screen">
         <div class="flex flex-col items-center justify-center">
           <div class="w-full md:w-4/12 text-center">
-            <img src="/images/content/404.png" alt="congrats illustration" />
+            <img src="/images/content/404.png" alt="error illustration" />
             <h2 class="text-3xl font-semibold mb-6">{title}</h2>
             <p class="text-lg mb-12">{body}</p>
             <Link

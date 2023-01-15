@@ -7,10 +7,11 @@ import ShoppingCart from "parts/Cart/ShoppingCart";
 import ShippingDetails from "parts/Cart/ShippingDetails";
 import Sitemap from "parts/Sitemap";
 import Footer from "parts/Footer";
+import Documents from "parts/Documents";
 
-export default function Details() {
+export default function Cart() {
   return (
-    <>
+    <Documents>
       <Header theme="black"></Header>
 
       <Breadcrumb
@@ -31,6 +32,6 @@ export default function Details() {
 
       <Sitemap></Sitemap>
       <Footer></Footer>
-    </>
+    </Documents>
   );
 }

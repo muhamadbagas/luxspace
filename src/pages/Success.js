@@ -6,10 +6,11 @@ import Breadcrumb from "components/Breadcrumb";
 
 import Sitemap from "parts/Sitemap";
 import Footer from "parts/Footer";
+import Documents from "parts/Documents";
 
 export default function Success() {
   return (
-    <>
+    <Documents>
       <Header theme="black"></Header>
 
       <Breadcrumb
@@ -46,6 +47,6 @@ export default function Success() {
 
       <Sitemap></Sitemap>
       <Footer></Footer>
-    </>
+    </Documents>
   );
 }
